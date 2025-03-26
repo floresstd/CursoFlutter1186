@@ -1,1 +1,1 @@
-![la tarjeta].(Card.png)
+![la tarjeta](Card.png)

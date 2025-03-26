@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:florescurso/mi_widgets/mi_tarjeta.dart';
+//import 'package:florescurso/mi_widgets/mi_tarjeta.dart';
+import 'package:florescurso/mi_widgets/dialogo_acerca_de.dart';
 
 void main() => runApp(const MiTarjeta());
 
@@ -17,7 +18,8 @@ class MiTarjeta extends StatelessWidget {
           title: const Text("Flutter Flores"),
           centerTitle: true,
         ),
-        body: LaTarjeta(),
+        //body: const LaTarjeta(),
+        body: const DialogoAcercaDe(),
       ),
     );
   }

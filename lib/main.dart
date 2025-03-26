@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 //import 'package:florescurso/mi_widgets/mi_tarjeta.dart';
-import 'package:florescurso/mi_widgets/dialogo_acerca_de.dart';
+//import 'package:florescurso/mi_widgets/dialogo_acerca_de.dart';
+import 'package:florescurso/mi_widgets/dialogo_list_title.dart';
 
 void main() => runApp(const MiTarjeta());
 
@@ -19,7 +20,8 @@ class MiTarjeta extends StatelessWidget {
           centerTitle: true,
         ),
         //body: const LaTarjeta(),
-        body: const DialogoAcercaDe(),
+        //body: const DialogoAcercaDe(),
+        body: const DialogoListTitle(),
       ),
     );
   }
